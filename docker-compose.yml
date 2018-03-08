@@ -1,7 +1,7 @@
 version: "3.0"
 services:
   dockerapp:
-    build: .
+    image:sangam14/dockerapp
     ports:
       - "5000:5000"
     depends_on:
